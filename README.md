@@ -1,4 +1,4 @@
-# Summer-2022-Internship-Documentation-Resources
+# Summer-2022-Internship-Documentation-and-Resources
 
 
 This will be a documentation record of my progress of my research internship with the Computational Biomedicine deparment at Cedars-Sinai. This internship is focused on improving an AutoML model called 'STREAMLINE' where I would specifically be working on feature selection algorithms involved in creating/improving AutoML and possibly other smaller projects. This will serve for the next person who may have the wonderful opportunity to continue with the ongoing research.
