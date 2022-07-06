@@ -1,9 +1,14 @@
 # Summer-2022-Internship-Documentation-Resources
 
 
-This will be a documentation record of my progress of my research internship with the Computational Biomedicine deparment at Cedars-Sinai. This internship is focused on improving an AutoML model called 'STREAMLINE' where I would specifically be working on feature selection and possibly other smaller projects. More details to be updated as the internship progresses....
+This will be a documentation record of my progress of my research internship with the Computational Biomedicine deparment at Cedars-Sinai. This internship is focused on improving an AutoML model called 'STREAMLINE' where I would specifically be working on feature selection algorithms involved in creating/improving AutoML and possibly other smaller projects. This will serve for the next person who may have the wonderful opportunity to continue with the ongoing research.
 
-I will be posting various learning resources here that I came across to help me understand what Machine Learning is, how it works, the processes and algorithms involved in creating/improving AutoML.  This will serve for the next person who may have the wonderful opportunity to continue with the ongoing research.
+This first small project focuses on using SHAP/Shapley values to explain the magnitude (impact) and significance of feature values in predictions made by the ML. To clarify, SHAP/Shapley values is one of many feature selection algorithms that are meant to help explain the process in making predictions and this algorithm in particular, serves to understand the contribution of each feature value to the difference between the ACTUAL PREDICTION and the AVERAGE (MEAN) PREDICTION. In other words, we are looking for changes/differences in the predicted values of features from the average prediction of ALL features. An easier way of thinking about this is how much each player in a game is contributing  where the player is the "feature" and the payout is the "prediction". Shapley values shed light on the concept of 'fairness' which is especially important if we want to know just how much each feature is individually contributing to the prediction itself.  Some things to consider are:
+*Shapley values follow the ASSUMPTION that each feature is independent and will not provide accurate values if two or more features are highly-correlated (highly-correlated features must be removed when selecting features)
+*It is NOT the difference of the predicted value after removing the feature from the modeling training
+*Long computational time
+*Remember...relationships between features are NOT CAUSAL, we look for correlation between features
+*
 
 **Projects:**
   1) Feature Selection: Shapley values/SHAP
