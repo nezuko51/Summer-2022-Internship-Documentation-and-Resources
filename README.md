@@ -27,6 +27,7 @@ I will be posting various learning resources here that I came across to help me 
   * SHAP for Feature Selection and HyperParameter Tuning (https://towardsdatascience.com/shap-for-feature-selection-and-hyperparameter-tuning-a330ec0ea104#:~:text=SHAP%20helps%20when%20we%20perform,with%20the%20highest%20shapley%20values.)
   * Shapley Value Calculation in Python (https://linuxtut.com/en/4cb3fb64e487dba61b15/
   * Explain Your Model Predictions with Shapley Values (https://www.kaggle.com/code/prashant111/explain-your-model-predictions-with-shapley-values/notebook)
+  * How to interpret and explain your machine learning models using SHAP values (https://m.mage.ai/how-to-interpret-and-explain-your-machine-learning-models-using-shap-values-471c2635b78e)
     
         
   **Peer-Reviewed Journals**
