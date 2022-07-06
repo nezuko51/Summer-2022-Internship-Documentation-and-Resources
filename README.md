@@ -16,3 +16,4 @@ I will be posting various learning resources here that I came across to help me 
   * Machine Learning Classifiers - The Algorithms & How They Work (https://monkeylearn.com/blog/what-is-a-classifier/) 
   * SHAP for Feature Selection and HyperParameter Tuning (https://towardsdatascience.com/shap-for-feature-selection-and-hyperparameter-tuning-a330ec0ea104#:~:text=SHAP%20helps%20when%20we%20perform,with%20the%20highest%20shapley%20values.)
   * AUC-ROC Curve in Machine Learning Clearly Explained (https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
+  * Welcome to tge Documentation of SHAP (https://shap.readthedocs.io/en/latest/index.html)
