@@ -38,6 +38,6 @@ This first small project focuses on using SHAP/Shapley values to explain the mag
     
         
   **Peer-Reviewed Journals & Published Papers Resources**
-  * A Unified Approach to Interpreting Model Predictions by Scott Lundberg and Su-In Lee: https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf 
-  * On the Tractibility of SHAP Explanations: (refer to Python Practice file)
+  * A Unified Approach to Interpreting Model Predictions by Scott Lundberg and Su-In Lee: (refer to Resources folder found in Python Practice folder)
+  * On the Tractibility of SHAP Explanations: (refer to Resources folder found in Python Practice folder)
   * Explaining Individual Predictions When Features are Dependent More accurate approximations to Shapley values: https://www.sciencedirect.com/science/article/pii/S0004370221000539
