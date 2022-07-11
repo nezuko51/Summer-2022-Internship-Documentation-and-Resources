@@ -14,26 +14,30 @@ This first small project focuses on using SHAP/Shapley values to explain the mag
   1) Feature Selection: Shapley values/SHAP
   
 
-**Learning Resources:**
+**Precursor Learning Resources:**
   * Learning Classifier Systems in a Nutshell (https://www.youtube.com/watch?v=CRge_cZ2cJc)
   * Machine Learning Classifiers - The Algorithms & How They Work (https://monkeylearn.com/blog/what-is-a-classifier/)
   * AUC-ROC Curve in Machine Learning Clearly Explained (https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
   * 8.5 Permutation Feature Importance (https://christophm.github.io/interpretable-ml-book/feature-importance.html#feature-importance)
   * Machine Learning Explainability using Permutation Importance (https://www.geeksforgeeks.org/machine-learning-explainability-using-permutation-importance/)
   * ML Interpretability: LIME and SHAP in prose and code (https://blog.cloudera.com/ml-interpretability-lime-and-shap-in-prose-and-code/)
+  * Explain your model with LIME: https://medium.com/dataman-in-ai/explain-your-model-with-lime-5a1a5867b423
   * Stop Permuting Features (https://towardsdatascience.com/stop-permuting-features-c1412e31b63f)
   
-  **Shapley Values/SHAP**
+  **Shapley Values/SHAP Learning Resources**
   * Welcome to the Documentation of SHAP (https://shap.readthedocs.io/en/latest/index.html)
   * Understanding Shapley Values (https://www.kaggle.com/code/iamleonie/understanding-shapley-values/notebook)
   * Interpretable ML: Shapley Values (https://christophm.github.io/interpretable-ml-book/shapley.html#shapley)
   * Shapley Values - A Gentle Introduction (https://h2o.ai/blog/shapley-values-a-gentle-introduction/)
   * Interpretable Machine Learning using SHAP — theory and applications (https://towardsdatascience.com/interpretable-machine-learning-using-shap-theory-and-applications-26c12f7a7f1a)
   * SHAP for Feature Selection and HyperParameter Tuning (https://towardsdatascience.com/shap-for-feature-selection-and-hyperparameter-tuning-a330ec0ea104#:~:text=SHAP%20helps%20when%20we%20perform,with%20the%20highest%20shapley%20values.)
+  * Demystifying Black-Box Models with SHAP Value Analysis: https://medium.com/civis-analytics/demystifying-black-box-models-with-shap-value-analysis-3e20b536fc80
   * Shapley Value Calculation in Python (https://linuxtut.com/en/4cb3fb64e487dba61b15/
   * Explain Your Model Predictions with Shapley Values (https://www.kaggle.com/code/prashant111/explain-your-model-predictions-with-shapley-values/notebook)
   * How to interpret and explain your machine learning models using SHAP values (https://m.mage.ai/how-to-interpret-and-explain-your-machine-learning-models-using-shap-values-471c2635b78e)
     
         
-  **Peer-Reviewed Journals**
-  * Explaining individual predictions when features are dependent: More accurate approximations to Shapley value (https://www.sciencedirect.com/science/article/pii/S0004370221000539// doi: https://doi.org/10.1016/j.artint.2021.103502)
+  **Peer-Reviewed Journals & Published Papers Resources**
+  * A Unified Approach to Interpreting Model Predictions by Scott Lundberg and Su-In Lee: https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf 
+  * On the Tractibility of SHAP Explanations: (refer to Python Practice file)
+  * Explaining Individual Predictions When Features are Dependent More accurate approximations to Shapley values: https://www.sciencedirect.com/science/article/pii/S0004370221000539
