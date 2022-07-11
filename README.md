@@ -11,7 +11,7 @@ This first small project focuses on using SHAP/Shapley values to explain the mag
 
 
 **Projects:**
-  1) Feature Selection: Shapley values/SHAP
+  1) ML Interpretibility: Shapley values/SHAP
   
 
 **Precursor Learning Resources:**
