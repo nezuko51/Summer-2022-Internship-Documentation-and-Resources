@@ -34,6 +34,7 @@ This first small project focuses on using SHAP/Shapley values to explain the mag
   * Demystifying Black-Box Models with SHAP Value Analysis: https://medium.com/civis-analytics/demystifying-black-box-models-with-shap-value-analysis-3e20b536fc80
   * Shapley Value Calculation in Python (https://linuxtut.com/en/4cb3fb64e487dba61b15/
   * Explain Your Model Predictions with Shapley Values (https://www.kaggle.com/code/prashant111/explain-your-model-predictions-with-shapley-values/notebook)
+  * Using SHAP Values to Explain How Your Machine Learning Model Works: https://towardsdatascience.com/using-shap-values-to-explain-how-your-machine-learning-model-works-732b3f40e137
   * How to interpret and explain your machine learning models using SHAP values (https://m.mage.ai/how-to-interpret-and-explain-your-machine-learning-models-using-shap-values-471c2635b78e)
     
         
