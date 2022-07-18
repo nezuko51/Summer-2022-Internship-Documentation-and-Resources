@@ -13,9 +13,9 @@ This first small project focuses on using SHAP/Shapley values to explain the mag
   * When is it appropriate to apply specific SHAP explainers (e.g. LinearExplainer or TreeExplainer) on certain ML models?
   * Why use SHAP TreeExplainer on gradient boosting models such as XGB, Catboost, or LightGBM? Why not use GradientExplainer?
   * How do we account for the variability in SHAP values when implemented in different phases of ML pipeline? 
-        * Do we apply Shapley values immediately after going through N-iterations of training/testing a model (midst of finding best parameters)?
-        * Do we apply it to each cross-validation fold and then average those Shapley values over the # of CV folds (aka average of entire dataset)?
-        * Would it be incorrect to apply it after model training (model w/ best hyperparameters) rather than during the process of training/testing of each CV fold when fitting the model?
+  * Do we apply Shapley values immediately after going through N-iterations of training/testing a model (midst of finding best parameters)?
+  * Do we apply it to each cross-validation fold and then average those Shapley values over the # of CV folds (aka average of entire dataset)?
+  * Would it be incorrect to apply it after model training (model w/ best hyperparameters) rather than during the process of training/testing of each CV fold when fitting the model?
 
 **Projects:**
   1) ML Explainability: Shapley values/SHAP
