@@ -1,16 +1,27 @@
 # Summer-2022-Internship-Documentation-and-Resources
+* **Organization**:  Cedars-Sinai - Computational Biomedicine Dept.
+* **Mentor**: Dr. Ryan Urbanowicz
+* **Program**: Cedars- Sinai INSPIRE Internship Program
 
+This will be a documentation record of my progress of my research internship with the Computational Biomedicine deparment at Cedars-Sinai. This internship is focused on improving an AutoML model called 'STREAMLINE' where I would specifically be researching and devloping code for an ML explainability method called SHAP/Shapley Values. This will serve for the next person who may have the wonderful opportunity to continue with the ongoing research.
 
-This will be a documentation record of my progress of my research internship with the Computational Biomedicine deparment at Cedars-Sinai. This internship is focused on improving an AutoML model called 'STREAMLINE' where I would specifically be working on feature selection algorithms involved in creating/improving AutoML and possibly other smaller projects. This will serve for the next person who may have the wonderful opportunity to continue with the ongoing research.
-
-This first small project focuses on using SHAP/Shapley values to explain the magnitude (impact) and significance of feature values in predictions made by the ML. To clarify, SHAP/Shapley values is one of many feature selection algorithms that are meant to help explain the process in making predictions and this algorithm in particular, serves to understand the contribution of each feature value to the difference between the ACTUAL PREDICTION and the AVERAGE (MEAN) PREDICTION. In other words, we are looking for changes/differences in the predicted values of features from the average prediction of ALL features. An easier way of thinking about this is how much each player in a game is contributing  where the player is the "feature" and the payout is the "prediction". Shapley values shed light on the concept of 'fairness' which is especially important if we want to know just how much each feature is individually contributing to the prediction itself.  Some things to consider are:
+This project focuses on using SHAP/Shapley values to explain the magnitude (impact) and significance of feature values in predictions made by the ML. To clarify, SHAP/Shapley values is one of many feature ranking algorithms that are meant to help explain the process in making predictions and this algorithm in particular, serves to understand the contribution of each feature value to the difference between the ACTUAL PREDICTION and the AVERAGE (MEAN) PREDICTION. While Shapley Values/SHAP are used to explain HOW a model made its predictions, it can be utilized for selecting features before training a model. In other words, we are looking for changes/differences in the predicted values of features from the average prediction of ALL features. An easier way of thinking about this is how much each player in a game is contributing to the outcome where the player is the "feature" and the payout is the "prediction". Shapley values shed light on the concept of 'fairness' which is especially important if we want to know just how much each feature is individually contributing to the prediction itself.  In this project, I will be creating a SHAP Jupyter Notebook that takes STREAMLINE results and creates SHAP values for each trained model over a number of cross-validation (CV) folds. Some things to consider are:
 * Shapley values follow the ASSUMPTION that each feature is independent and will not provide accurate values if two or more features are highly-correlated (highly-correlated features must be removed when selecting features)
 * It is NOT the difference of the predicted value after removing the feature from the modeling training
 * Long computational time
 * Remember...relationships between features are NOT CAUSAL, we look for correlation between features
 
 
-**Projects:**
+**Current Questions:**
+  * When is it appropriate to apply specific SHAP explainers (e.g. LinearExplainer or TreeExplainer) on certain ML models?
+  * Why use SHAP TreeExplainer on gradient boosting models such as XGB, Catboost, or LightGBM? Why not use GradientExplainer?
+  * How do we account for the variability in SHAP values when implemented in different phases of ML pipeline? 
+  * Do we apply Shapley values immediately after going through N-iterations of training/testing a model (midst of finding best parameters)?
+  * Do we apply it to each cross-validation fold and then average those Shapley values over the # of CV folds (aka average of entire dataset)?
+  * Would it be incorrect to apply it after model training (model w/ best hyperparameters) rather than during the process of training/testing of each CV fold when fitting the model?
+
+
+**Project:**
   1) ML Explainability: Shapley values/SHAP
   
 
@@ -39,6 +50,8 @@ This first small project focuses on using SHAP/Shapley values to explain the mag
     
         
   **Peer-Reviewed Journals & Published Papers Resources**
-  * A Unified Approach to Interpreting Model Predictions by Scott Lundberg and Su-In Lee: (refer to Resources folder found in Python Practice folder)
-  * On the Tractibility of SHAP Explanations: (refer to Resources folder found in Python Practice folder)
+  * A Unified Approach to Interpreting Model Predictions by Scott Lundberg and Su-In Lee: (refer to Resources folder)
+  * On the Tractibility of SHAP Explanations: (refer to Resources folder)
   * Explaining Individual Predictions When Features are Dependent More accurate approximations to Shapley values: https://www.sciencedirect.com/science/article/pii/S0004370221000539
+  * Explanations of Machine Learning Models in Repeated Nested Cross-Validation: An Application in Age Prediction Using Brain Complexity Features (refer to Resources folder)
+  * Improving KernelSHAP- Practical Shapley Value Estimation via Linear Regression (refer to Resources folder)
