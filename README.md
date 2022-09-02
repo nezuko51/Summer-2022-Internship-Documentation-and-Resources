@@ -1,7 +1,7 @@
 # Summer-2022-Internship-Documentation-and-Resources
 * **Organization**:  Cedars-Sinai - Computational Biomedicine Dept.
 * **Mentor**: Dr. Ryan Urbanowicz
-* **Program**: Cedars- Sinai INSPIRE Internship Program
+* **Program**: Cedars-Sinai INSPIRE Internship Program
 
 This will be a documentation record of my progress of my research internship with the Computational Biomedicine deparment at Cedars-Sinai. This internship is focused on improving an AutoML model called 'STREAMLINE' where I would specifically be researching and devloping code for an ML explainability method called SHAP/Shapley Values. This will serve for the next person who may have the wonderful opportunity to continue with the ongoing research.
 
